@@ -1,0 +1,6 @@
+Feature: ind an item on a page
+
+    Scenario: do a google search
+        Given the user types in the search bar "filetype"
+        When  he press the enter key
+        Then  the results presented on the first page must have the correct extension
