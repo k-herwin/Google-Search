@@ -1,0 +1,7 @@
+Feature: Operation arithmetic
+
+    Scenario: Calculating percentage operation
+    Given I use the calculater
+    When I enter "10" into the calculator
+    And I add the operator "%"
+    Then the calculated result is "0,1"
