@@ -1,0 +1,7 @@
+Feature: Operation arithmetic
+
+    Scenario: Calculating division operation
+    Given I use the calculater
+    When I enter "10" into the calculator
+    And I divided by "5"
+    Then the calculated result is "2"
