@@ -1,7 +1,7 @@
- Feature: Operation arithmetic
+Feature: Operation arithmetic
 
-    Scenario: Calculating substration operation
+    Scenario: Calculating addition operation
     Given I use the calculater
-    When I enter "10" into the calculator
-    And I subtracted "6"
-    Then the calculated result is "4"
+    When I enter "1" into the calculator
+    And I add "2"
+    Then the calculated result is "3"
