@@ -1,0 +1,7 @@
+Feature: Operation arithmetic
+
+    Scenario: Calculating multiplication operation
+    Given I use the calculater
+    When I enter "10" into the calculator
+    And I multiplicated by "2"
+    Then the calculated result is "20"
