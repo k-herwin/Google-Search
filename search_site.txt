@@ -1,0 +1,7 @@
+
+Feature: Find an item on a page
+
+    Scenario: do a google search
+        Given the user types in the search bar "site"
+        When  he press the enter key
+        Then  the results presented on the first page must be on the right host
